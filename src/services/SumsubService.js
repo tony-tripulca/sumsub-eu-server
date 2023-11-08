@@ -2,8 +2,8 @@ import axios from "axios";
 import URL from "../config/url.js";
 import { createSignature, toQueryString } from "../util/Hash.js";
 
-const TOKEN = process.env.SUMSUB_TOKEN_AU;
-const SECRET_KEY = process.env.SUMSUB_SECRET_KEY_AU;
+const TOKEN = process.env.SUMSUB_TOKEN_EU;
+const SECRET_KEY = process.env.SUMSUB_SECRET_KEY_EU;
 
 const SumsubService = {
   getAccessToken: (payload) => {
