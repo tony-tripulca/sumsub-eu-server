@@ -5,7 +5,7 @@ class URL {
     if (env === "dev") {
       return "https://api.sumsub.com";
     } else if (env === "uat") {
-      return "/";
+      return "https://api.sumsub.com";
     } else if (env === "prod") {
       return "/";
     }
